@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width initial-scale=1.0"><title>index</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"><link href="/index.css" rel="stylesheet" type="text/css"><script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"><link href="/css/style.css" rel="stylesheet" type="text/css"><script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script></head>
 <body>
 	<div class="navbar navbar-inverse">
@@ -32,37 +32,42 @@
 						 <li><a href="/charlie/links.html">My Links</a></li>
 						 <li><a href="http://www.github.com/charliecalvert">GitHub</a></li>
 						 <li><a href="http://sourceforge.net/projects/elvenware/">Sourceforge</a></li></ul></li></ul></div><!-- /.nav-collapse--></div></div>
+						 <div class="container"><figure><img alt="Elvenware" src="/images/elvenwarelogo.png"/></figure>
 						
- <div class="container"><h1 class="center">Welcome to my Homepage</h1>
-<figure><img alt="Elvenware" src="/images/elvenwarelogo.png"/></figure>
- </div>
+						 <h1>Welcome to my Homepage</h1>
+						</div>
 						
 				  <div class="container">
 					<Article> 
 					<thead>Article for some dummy text</thead>
 					</Article>
 					
-                                  <aside>
 					<h3>Here are the links to other webpages</h3>
 					<ul>
 
-						<li><a href="apache-home-page.html">Introduction</a></li>
-						<li><a href="Summary.html">Summary</a></li>
+						
+						<li><a href="apache-home-page.html">apache-home-page.html</a></li>
+						<li><a href="Summary.html">Summary.html</a></li>
 						<li><a href="myInterest.html">My Interest Webpage</a></li>
 						<li><a href="Assignments/Summary.html">GoogleDriveZip Folder Summary</a></li>
-						<li><a href="master-list.html">Master List</a></li>
-						<li><a href="WalkingMap.html">Maps</a></li>
-						<li><a href="file1.html">Amazing Meteorological Diagrams</a></li>
-				 <li><a href="bootstraptheme.html"> Bootstrap Theme</a></li>
-					</ul>		
-                                  </aside>
- </div>
+						<li><a href="master-list.html">Master-List</a></li>
+						<li><a href="WalkingMap.html">WalkingMap.html</a></li>
+						<li><a href="apache-home-page.html">apache-home-page.html</a></li>
+						<li><a href="Summary.html">Summary.html</a></li>
+						<li><a href="MoreFiles/Summary.html">MoreFiles/Summary.html</a></li>
+						<li><a href="Assignment/Summary.html">Assignment/Summary.html</a></li>
+						<li><a href="Assignment/Summary.html">file1.html</a></li>
+						<li><a href="Assignment/Summary.html">master-list.html</a></li>
+						<li><a href="Assignment/Summary.html">WalkingMap.html</a></li>
+						<li><a href="Assignment/Summary.html">MoreFiles/Summary.html</a></li>
+						<li><a href="Assignment/Summary.html">MoreFiles/more-files.html</a></li>
 
+					</ul>		
+				  </div>
  <footer> 
       <!--************************************************************************
-    Footer starts here  ****************************************************************************--> 
-<p>Check us at: </p>
-<br>
+    Footer starts here  ****************************************************************************-->
+   <p>Check us at: </p> 
    <nav> 
     <ul> 
      <li id="fb"><a href="aboutPros&Cons.html" title="Facebook.com"></a></li> 

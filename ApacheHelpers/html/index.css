@@ -1,7 +1,67 @@
-body {
-  padding-top: 50px;
-}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
 }
+
+/*Style for Logo*/
+figure img{margin-left:0px; padding-left:1px;}
+
+figure{align-text:center;  }
+
+/* Support id*/
+.center{text-align:center;}
+
+/*style for common tags */
+h1.center
+{font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;}
+
+body
+{background-image:url(/images/web.jpg)}
+
+
+/*footer styles*/
+
+footer
+{
+	width:900px;
+	height:70px;
+	text-align:center;
+	color:white;
+	float:left;
+	clear:both;
+        padding: 8%;
+        	
+}
+footer p{float: left;}
+
+footer ul li{
+
+	float:left;
+	background: url(/images/icon.png) no-repeat;
+	margin: auto 20px auto 10px;
+	padding-top: 23px;
+	padding-right: 23px;
+	padding-left: 22px;
+	border-radius: 11px;
+	padding-bottom: 22px;
+	border-collapse:collapse;
+}
+
+
+/*Style to support footer navigation &links */
+
+footer ul{list-style:none; padding-right:20px;}
+
+#fb{ background-position:left top;}
+#fb:hover{ background-position:left bottom;}
+
+#plus{ background-position:-45px top; }
+#plus:hover{ background-position:-45px bottom; }
+
+#tw{ background-position:-90px top;}
+#tw:hover{ background-position:-90px bottom;}
+
+#link{ background-position:right top; }
+#link:hover{ background-position:right bottom; }
+

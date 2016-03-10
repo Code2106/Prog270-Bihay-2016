@@ -3,6 +3,10 @@
 Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
 
 */
+ 
+
+body{background-image:url(/images/web.jpg);}
+
 
 .hljs {
   display: block;
@@ -92,5 +96,6 @@ Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
 #banner{ width:440px; height:140px; }
 
 img.twenty-five-percent {
-   width: 25%;
-}
+   width: 25%;}
+
+.container h1{margin-top:80px;}
