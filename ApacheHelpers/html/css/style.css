@@ -3,6 +3,13 @@ img.twenty-five-percent {
    width: 25%;
 }
 
+
+/* Style container*/
+figure{ margin-top:7%; }
+
+
+
+
 /* Support id*/
 .center{text-align:center;}
 
@@ -17,7 +24,10 @@ font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman
 
 body
 {
-	background-image:url(/images/web.jpg)
+	background-image:url(/images/web.jpg);
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
 }
 
 img{ padding:20px; margin:10px; }
@@ -27,9 +37,11 @@ img{ padding:20px; margin:10px; }
 
 table
 {	
+
  position:relative;
  align-self:center;
  margin: 60px auto;
+
 }
 
 th h3{ text-align:center; }
