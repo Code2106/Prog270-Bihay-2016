@@ -1,0 +1,166 @@
+/* Support id*/
+.center{text-align:center;}
+
+
+/*style for common tags */
+h1.center
+{
+
+font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	
+}
+
+body
+{
+	border: 20px solid red;
+	background-image:url(../Images/background.jpg)
+}
+/********************************/
+
+/*Table in additional info page start here */
+
+table
+{	
+ position:relative;
+ align-self:center;
+ margin: 60px auto;
+}
+
+th h3{ text-align:center; }
+td img{ margin:15px; }
+
+/********************************/
+
+/*Style for navigation bar and header */
+
+/* Classes */
+
+.inlineBar
+{
+	float:left;
+	margin: 0px 10px;
+	border: 2px solid red;
+	border-radius:3px;
+}
+
+/*For header*/
+
+header.banner{
+   float:right; clear:left;
+   background-color: green;
+   clear:left;
+   margin:-21px auto 40px  ;
+   padding-bottom:10px;
+}
+
+li{ Display:inline; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+
+#navBar{ padding: 15px; margin: 10px; margin:9px;}
+
+a.navLink{font-size:18px;
+	border-right: 1px solid grey;
+	padding-right:10px;
+	margin:20px;
+}
+/*******************/
+
+/* Style the body of the page and content*/
+
+#mainwrapper{margin: auto 120px auto 120px; } 
+
+#mainContent{ 
+	float:left;  
+	background-image:url(../Images/web.jpg); 
+	padding:40px;    
+	font-family:"Times New Roman",Times, serif;
+	text-align:left;
+	margin: 70px 20% -20px 25%;
+}
+
+#bannerImage{ padding:30px; }
+
+#authorInfo{ float:right;  color:white;  }
+
+#sidebar{ float:left; }
+
+#logo img{ background-image:url(../Images/logo.jpg); }
+
+#blog{ color:white; }
+
+/*Style for Form*/
+
+form{ 
+	width:600px; 
+	border: 2px solid black; 
+	padding:10px; 
+	margin:auto;
+	background-color: #bfbfbf; 
+	height:600px; 
+}
+
+#fstyle.center{ margin: 100px 85px auto 90px;  width:434px;}
+
+.center section{ width:170px; text-align:left; margin: 10px 170px;}
+
+.center span{ margin:1px; display:block; }
+
+#submit
+{
+	 width:100px; 
+	 height:40px; 
+	 padding:10px;
+}
+
+/*footer styles*/
+
+footer
+{
+	width:900px;
+	height:70px;
+	text-align:center;
+	color:white;
+	float:right;
+	clear:both;
+	margin: 50px auto 30px auto;	
+}
+
+footer p{float: left;}
+
+footer ul li {
+	float: left;
+	background: url(../Images/icon.png) no-repeat;
+	margin: auto 16px;
+	padding-top: 22px;
+	padding-right: 23px;
+	padding-left: 22px;
+	border-radius: 11px;
+	padding-bottom: 22px;
+	border-collapse:collapse;
+}
+
+
+/*Style to support footer navigation & links */
+footer ul {list-style:none; margin:0; heigth:100px;}
+
+#fb{ background-position:left top;}
+#fb:hover{ background-position:left bottom;}
+
+#plus{ background-position:-45px top; }
+#plus:hover{ background-position:-45px bottom; }
+
+
+#tw{ background-position:-90px top;}
+#tw:hover{ background-position:-90px bottom;}
+
+#link{ background-position:right top; }
+#link:hover{ background-position:right bottom; }
+
+#copyr{float:right; margin: auto -10px;}
+/* *****************************************/
+
+/* Style for our go back to home links */
+a:hover{ color:white; }
+
+#goBack a{ float:right; clear:right;  color:white; font-size:larger; }
+
+#goBack a:hover{ color:blue; }
