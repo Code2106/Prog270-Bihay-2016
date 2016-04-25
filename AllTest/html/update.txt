@@ -1,1 +1,0 @@
-I added carousel, style navigation, created two columns, my hero image is my profile image. align divs, adjust margin to fit in the mobile devices.

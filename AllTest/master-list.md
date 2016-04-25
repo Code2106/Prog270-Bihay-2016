@@ -1,7 +1,0 @@
-* [Summary.html](Summary.html)
-* [mapping-database/Summary.html](mapping-database/Summary.html)
-* [bootstraps/Summary.html](bootstraps/Summary.html)
-* [Pictures/CanadaMarkdown/Summary.html](Pictures/CanadaMarkdown/Summary.html)
-* [Pictures/CaliforniaMarkdown/Summary.html](Pictures/CaliforniaMarkdown/Summary.html)
-* [Markdown Files/Summary.html](Markdown Files/Summary.html)
-* [Assignment/Summary.html](Assignment/Summary.html)
