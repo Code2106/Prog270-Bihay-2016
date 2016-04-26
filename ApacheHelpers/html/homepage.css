@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+/*  Navigation bar style  */
+.navbar-default {
+  background-color: #59b6b6;
+  border-color: #346f7e;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #4896aa;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #346f7e;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #4896aa;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #346f7e;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #346f7e;
+}
+.navbar-default .navbar-toggle {
+  border-color: #346f7e;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #346f7e;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+.navbar-brand {
+
+	background-image: url(../images/svg/halfdome.svg);
+	background-repeat: no-repeat;
+	background-size: 66px auto;
+	padding-left: 50px;
+	background-position: -6% 0%;
+}
+
+.dot:hover{ color:gray;  }
+
+body{ 
+
+	background:url(images/Background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+	
+	}
+  
+  /* Introduction and slogan style  */
+  
+.wrapper{ text-align: center; margin-bottom: 10%; }
+  
+  .intro{ 
+  
+  font-size: 18px;
+  font-family: "Harlow Solid Italic";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 30%;
+  right:30%;
+  width:40%;
+  
+}
+  
+  .slogan{
+  
+  font-size: 30px;
+  font-family: "Lucida Calligraphy";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1.2;
+  position: absolute;
+  margin:1% auto;
+  top:10%;
+  left: 20%;
+  right:20%;  
+  z-index: 36;
+  
+  }
+  
+ 
+  .profile
+  {
+  
+	padding:12px;
+	margin:7% 45% auto 45%;
+    width:10%;
+	
+ }
+  
+  .col-xs-6{
+	  
+	  margin-top: 3%;
+	  border: 2px solid black;
+	  
+	  }
+  
+  
+  
+ .details{
+	 
+	 color:white;
+	 list-style-type: none;
+	 text-align:center;
+	 
+	 }
+
+.item{
+	
+	z-index: -1;
+	
+	}
+
+ /***************************************/
+
+ /***************************************/
+ /*footer styles*/
+ 
+footer
+{
+    position:fixed;
+	width:100%;
+	height:100px;
+	color:white;
+	float:left;
+	clear:both;	
+	background-color: rgb(204, 204, 204);
+	z-index: 18;
+	margin-top:32%;
+	
+}
+
+footer div{  
+	
+	border: 2px solid white; 
+	width: 100%; 
+	height: 67px; 
+	background-color: rgb(153, 153, 102);
+	margin-top: 15px; 
+	z-index: -1; 
+	margin-left:1px;
+
+}
+
+footer ul li {
+
+	background: url(images/icon.png) no-repeat;
+	margin: 13px 1.5%;
+	border-radius: 11px;
+	padding:22px;
+	display:inline-block;
+	
+}
+
+/*Supports footer navigation links */
+footer ul { float: left; clear:both; list-style:none; line-height: 1.2; width:100%; }
+
+#fb{ background-position:left top;}
+#fb:hover{ background-position:left bottom;}
+
+#git{ background-position:-45px top; }
+#git:hover{ background-position:-45px bottom; }
+
+#tw{ background-position:-91px top;}
+#tw:hover{ background-position:-91px bottom;}
+
+#link{ background-position:right top; }
+#link:hover{ background-position:right bottom; }
+
+#navBar a:hover{ color:blue; } 
+#navBar{ padding: 15px;}
+#navBar a{ color:white; list-style-type:none; font-size: 42px; font-family: "Myriad Pro"; }
+  
+  
+/* Media Queries */
+/* Mobile width */
+
+@media screen and (max-width:600px) {
+	
+  
+  .slogan{
+  
+  font-size: 12px;
+  margin: 3% auto;
+  left: 10%;
+  right: 10%;    
+  margin-top: -1%;
+  width: 90%
+
+  }
+  
+  
+ .profile{
+  
+	margin:20% 40% auto 40%;
+    width:20%;
+	
+  }
+  
+  
+.intro{ font-size: 11px; }
+  
+  
+.column{ width:50%; }
+  
+
+.row div{ margin:1%; }
+  
+  
+article h4{ padding:3%; }
+  
+.details{
+	 
+	 color:white;
+	 list-style-type: none;
+	 
+	 }
+
+.container { width: 100%; }
+
+.col-xs-6{ margin-top: 13.1%; }
+
+footer
+{
+ 
+	margin-top:43%;
+	
+}
+
+footer ul li { margin: 2.5% 3%; }
+
+
+footer ul { margin-left:-5.5%; }
+
+
+} 
+/* **** ** */
+/* end of media query */
+
+/* For Ipad screen */
+
+
+@media screen and (min-height:1024px)
+{
+
+ .slogan{
+  
+  font-size: 24px;
+  margin:3% auto;
+  left: 7%;
+  right:7%;    
+
+  }
+  
+.profile{
+  
+   margin:40% 43% auto 43%;
+   width:20%;
+	
+ }
+  
+.intro{ 
+  
+  font-size: 18px;
+  margin-left:15px;
+  
+}
+
+
+footer{ margin-top: 27%; }
+
+
+footer ul li { margin: 1.5% inherit; }
+
+
+
+}
+
+
+/* end of media query */

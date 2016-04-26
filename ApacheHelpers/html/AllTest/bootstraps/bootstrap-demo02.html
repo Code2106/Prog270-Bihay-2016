@@ -1,0 +1,113 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width initial-scale=1.0"><title>bootstrap-demo02</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"><link href="/css/highlight/googlecode.css" rel="stylesheet" type="text/css"><script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script></head><body><div class="navbar navbar-inverse"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Elvenware</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li class="active"><a href="/index.html">Home</a></li><li><a href="/about">About</a></li><li class="dropdown"><a href="#/" data-toggle="dropdown" class="dropdown-toggle">Dropdown<b class="caret"></b></a><ul class="dropdown-menu"><li class="dropdown-header">Core Code</li><li><a href="/development/index.html">Strongly Typed</a></li><li><a href="/development/web/index.html">Web & Scripts</a></li><li><a href="/development/cloud/index.shtml">Cloud</a></li><li class="divider"></li><li class="dropdown-header">OS and Tools</li><li><a href="/os/index.html">OS</a></li><li><a href="/development/database/index.html">Database</a></li><li><a href="/books/index.html">My Writing</a></li><li class="divider"></li><li class="dropdown-header">Art</li><li><a href="/charlie/Art/index.html">Poems & Photos</a></li><li><a href="/books/reading/index.html">Book Reviews</a></li><li><a href="/spirit/index.html">Spiritual</a></li><li class="divider"></li><li class="dropdown-header">Links</li><li><a href="/charlie/links.html">My Links</a></li><li><a href="http://www.github.com/charliecalvert">GitHub</a></li><li><a href="http://sourceforge.net/projects/elvenware/">Sourceforge</a></li></ul></li></ul></div><!-- /.nav-collapse--></div></div><div class="container"><figure><img alt="Elvenware" src="/images/elvenwarelogo.png"/></figure><h1>bootstrap-demo02</h1><p>Welcomes to bootstrap-demo02</p><ul><!--TOC_Start--><li><a href="#table-boostrap">Table Boostrap</a></li>
+<li><a href="#default-table">Default table</a></li>
+<li><a href="#striped-table">Striped Table</a></li>
+<li><a href="#bordered-table">Bordered Table</a></li>
+<li><a href="#condensed-table">Condensed Table</a></li>
+<li><a href="#carousel">Carousel</a></li>
+<li><a href="#various-colored-text">Various colored text</a></li>
+<li><a href="#rounded-objects">Rounded Objects</a></li><!--TOC_End--></ul></div><div class="container"><h2 id="table-boostrap">Table Boostrap</h2>
+<h3 id="default-table">Default table</h3>
+<table class="table">
+<tr><br><td>John</td>
+<td>Bihay</td> 
+<td>80</td>
+</tr>
+
+<tr>
+<td>Eve</td>
+<td>Jackson</td> 
+<td>94</td>
+</tr>
+</table>
+
+
+<h3 id="striped-table">Striped Table</h3>
+<table class="table table-striped">
+<tr><br><td>John</td>
+<td>Bihay</td> 
+<td>80</td>
+</tr>
+
+<tr>
+<td>Eve</td>
+<td>Jackson</td> 
+<td>94</td>
+</tr>
+</table>
+
+
+<h3 id="bordered-table">Bordered Table</h3>
+<table class="table table-bordered">
+<tr><br><td>John</td>
+<td>Bihay</td> 
+<td>80</td>
+</tr>
+
+<tr>
+<td>Eve</td>
+<td>Jackson</td> 
+<td>94</td>
+</tr>
+</table>
+
+
+<h2 id="condensed-table">Condensed Table</h2>
+<table class="table table-condensed">
+<tr><br><td>John</td>
+<td>Bihay</td> 
+<td>80</td>
+</tr>
+
+<tr>
+<td>Eve</td>
+<td>Jackson</td> 
+<td>94</td>
+</tr>
+</table>
+
+<h3 id="carousel">Carousel</h3>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+
+<div class="item active">
+<img src="/images/california/2015-12-19 09.35.14-small.jpg" alt="...">
+</div>
+
+<div class="carousel-caption">
+Place 1
+</div>
+
+
+<div class="item">
+<img src="/images/california/2015-12-19 09.52.08-small.jpg" alt="...">
+</div>
+<div class="carousel-caption">
+Place 2
+</div>
+</div>
+...
+</div>
+
+<h2 id="various-colored-text">Various colored text</h2>
+<p class="text-muted">muted Text</p>
+<p class="text-primary">primary Text</p>
+<p class="text-success">success Text</p>
+<p class="text-info">info Text</p>
+<p class="text-warning">warning Text</p>
+<p class="text-danger">danger Text</p>
+
+<h2 id="rounded-objects">Rounded Objects</h2>
+<p><img src="/images/california/2015-12-19 09.35.14-small.jpg" alt="round image" class="img-rounded" width="304" height="236">
+<img src="/images/california/2015-12-19 09.35.14-small.jpg" alt="circle image" class="img-circle" width="304" height="236">
+<img src="/images/california/2015-12-19 09.35.14-small.jpg" alt="thumbnail" class="img-thumbnail" width="304" height="236"></p>
+</div></body></html>
