@@ -1,0 +1,68 @@
+
+
+<!--Draw a map of the adventure game-->
+<!Doctype html>
+
+<html>
+
+	<head>
+		<title>
+       Wander in the Night
+		</title>
+		<link href="FOL.css" rel="stylesheet"  type="text/css"> 
+	</head>
+
+<body>
+    
+	<div id="wrapper">
+          
+		<img src="" id="imgloc" title="Location "/>
+	
+		<div id="dialogBox">
+    
+		 <h1 id="locName"> The Haunted Mansion </h1>
+		 <p id="details"> You are having a nightmarish dream of wandering into the woods. You stumble upon a seemingly haunted Mansion, coming from inside is a red glowing light.
+			You curiously go inside only to found a note: <br> The only way to get out is to found all missing items to escape and defeat the ghoul. The items are hidden in every 		            corners of the Mansion. The only way to escape is to find all the items before the ghoul gets you to end your life.</p> 
+    
+		</div>
+		
+	
+		<div id="backpack">
+	     
+         <div
+			
+	     	<h3>Backpack</h3>
+		
+			<ul id="itemIHave"></ul>
+		                            
+		 </div>	
+			
+		<input id="input" type="text">
+		
+		<div id="buttons">
+			
+			<button id="get" >Take Item</button><br>
+			<button id="use" >Use Item</button><br>
+			<button id="drop">Drop Item</button> 
+		
+		</div>
+			
+		
+		<h3> Game Instruction  </h3>
+		<p> Use Up, Left, Right and Down arrow button to explore the areas </p>
+		  
+          <button id="save">Save the game</button> 
+          <button id="prev">Return to previous gameplay</button> 
+        
+        </div>
+	
+   </div><!--closing tag for wrapper-->
+	
+
+	<footer> <p id= "output">  </p>  </footer>
+	
+</body>
+	
+   <script type="text/javascript" src="FOL.js"></script>
+   
+</html>

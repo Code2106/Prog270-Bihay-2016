@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+body{}
+#title{ font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif; }
+#wrapper{ align content:center; position:absolute; margin: 9% auto auto 35%; border: 2px solid red; width: 15%; height:35%;}
+#banner{ position:absolute; margin: 5% 5% 15% 5%; border: 2px solid red;  }
+#btn{ margin: 130px auto auto auto}
+button{ margin: 10px auto auto 5px; padding:2px; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;  }

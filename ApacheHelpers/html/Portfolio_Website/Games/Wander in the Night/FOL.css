@@ -1,0 +1,100 @@
+
+*{/* border: 1px solid green; */ }
+
+body
+{
+
+	background-color: black;
+
+}
+
+
+#imgloc
+{
+	
+	float:left;
+	position:relative;
+	z-index: -1;
+	margin:auto -15px -15px 14%;
+    width: 60%;
+	height: 500px;
+	
+}
+
+
+#dialogBox
+{
+	
+	float:right;
+	color: red;
+    position:absolute;
+	width: 12%;
+	
+}
+
+
+#wrapper
+{
+	
+	margin: 9% auto auto 4%;
+	
+}
+
+
+#backpack
+{ 
+
+	padding: 10px;
+  	color: white;
+	width: 15%;
+	height: 417px;
+	float: right;
+	margin-right: 100px;
+	
+}
+
+
+#use{padding-right:11px;}
+
+#drop{padding-right:7px;}
+
+button
+{
+	
+	 margin: 2px;
+	 
+}
+
+button:hover
+{
+
+	color:red;
+	background-color:gray;
+    margin-top:7px;
+    border-color:red;
+    text-shadow:2px 2px 2px red;
+    padding:3px;
+    
+}            
+
+
+#input{ margin-bottom:5px;}
+
+#output
+{
+	
+    padding-bottom:40px;
+	position:relative;
+	font-weight: bold;
+	color: white;
+
+}
+
+footer
+{
+	
+	clear:both;
+	position:relative;
+	margin: 15px auto auto 20%;
+	
+}

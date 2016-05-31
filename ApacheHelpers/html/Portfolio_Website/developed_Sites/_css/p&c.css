@@ -1,0 +1,139 @@
+/* Name Tag */
+h1
+{
+
+ align-text:center;
+	
+}
+
+body
+{
+	border: 20px solid red;
+	background-image:url(../Images/background.jpg)
+}
+
+li{ Display:inline;}
+
+th h3{ text-align:center; }
+td img{margin:15px;}
+
+
+form{width:600px; border: 2px solid black; margin:auto; padding:20px; background-color: #bfbfbf; height:600px;}
+
+form div{ margin: 100px 85px auto 90px;}
+ 
+footer
+{
+	text-align:center;
+	color:white;
+	float:right;
+	clear:both;
+	margin: 30px 670px 30px auto;	
+}
+
+th h3
+{
+	text-align:center;	
+}
+
+
+/* ID's */
+
+#HeadTitle{text-align:center; }
+
+#mainwrapper{margin: auto 120px auto 120px; } 
+
+#logo{ float:left;  }
+
+#mainContent{ 
+	float:left;  
+	background-image:url(../Images/web.jpg); 
+	padding:40px;    
+	font-family:"Times New Roman",Times, serif;
+	text-align:left;
+	margin: 70px auto -20px auto;
+}
+
+#bannerImage{ padding:30px; }
+
+#authorInfo{ float:right;  color:white;  }
+
+#sidebar{ float:left; }
+
+#logo img{ background-image:url(../Images/logo.jpg); }
+
+#blog{ color:white; }
+
+#submit
+{
+	 margin: 2px auto 10px 160px; width:100px; height:40px; padding:10px;
+}
+
+/* Classes */
+
+.inlineBar
+{
+	float:left;
+	margin: 0px 10px;
+	border: 2px solid red;
+	border-radius:3px;
+	
+}
+
+/* name tag */
+
+
+header.banner{
+	Display:inline-block;
+   float:right; clear:left;
+   background-color: green;
+   clear:left;
+   margin:-21px auto 40px  ;
+   padding-bottom:10px;
+}
+
+
+#navBar
+{
+	
+	padding-top: 4%;
+	
+}
+
+
+
+ a.navLink{ 
+position:abs
+    font-size:18px;
+	border-right: 1px solid grey;
+	padding-right:8px;
+	margin-right:27px;
+	
+}
+
+a:hover
+{
+	
+	color:white;
+
+}
+
+#goBack {
+	
+	float:right;
+	clear: right;
+	
+}
+
+#goBack a
+{
+	color:white;
+	font-size:larger;
+}
+
+#goBack a:hover
+{
+	color:blue;	
+}
+
+

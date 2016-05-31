@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CanvasGame</title>
+<link rel="stylesheet" type="text/css" href="canvas.css" >
+
+</head>
+
+<body>
+
+<header class="menu">
+
+<h1>Shoot the Monsters</h1>
+
+<section id="instruction">
+<button>Instruction</button>
+
+     <p> </p> 
+</section>
+
+</header>
+		
+<div class="wrapper">
+        
+        
+ <div id="place"> <canvas id="canvas" width="1380px" height="415px" >Error: Browser does not support canvas element. </canvas>  </div>
+
+
+   <footer class="tracker">
+  
+   <section >
+   
+     <h2 id="score"> </h2>
+   
+   </section>
+
+   <section>
+   
+    <h2 id="timer"> </h2>
+    
+   </section>
+  
+   </footer>
+ 
+ </div>
+  <script src="playF.js" > </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!Doctype html>
+
+<html>
+
+<head>
+
+<meta charset='UTF-8'>
+<title>Html Template Form </title>
+<link rel='stylesheet' href='form.css' />
+</head>
+
+ <body>
+
+ <form action="EbayTemp.html" method="sendData" id="form" name="templateForm">
+ <div class="center" id="fstyle">
+
+ <h2>Build your Ebay listing</h2>
+ <span><label>Name of product: </label><input type="text" name="productName" required></span>
+ <span><label>Product Summary: </label><br><textarea name="summary" rows="4" cols="50"></textarea></span><br>
+ 
+<div id="formLabel">
+<section>
+ <span><label>Brand: </label><input type="text" name="brand" size="7"></span><br>
+ <span><label>Model: </label><input type="text" name="model" size="7"></span><br>
+ <span><label>Size: </label><input type="text" name="size" size="1"></span><br>
+ <span><label>Power: </label><input type="text" name="power" size="6"></span><br>
+ <span><label>UPC: </label><input type="text" name="upc" size="8"></span><br>
+</section>
+
+<section>
+<span><h3 id="ConditionTitle">Condition:</h3></span>
+ <span><label>Cosmetic Rating: </label><input type="text" id="rate" ></span><br>
+ <span><label>Cosmetic Description: </label><textarea name="condition" rows="4" cols="25" ></textarea></span>
+ <span><label>Test Procedure: </label><input type="text" id="test" ></span>
+</section>
+</div>
+<input type="submit" value="Submit" id="submit">
+</div>
+ </form>
+<script language="javascript" type="text/javascript" src="EbayList.js"></script>
+</body>
+</html>
+

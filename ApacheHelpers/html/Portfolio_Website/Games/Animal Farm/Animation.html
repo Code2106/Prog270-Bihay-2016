@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Flying Animal Farm Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="container">
+    	<div class="top" id="left">
+    		<img src="images/logoPig.png">
+    		<h1>Flying Animal Farm</h1>
+    	</div>
+    	<div class="top" id="right">
+    		Click on as many animals as you can before time runs out!
+    	</div>
+        <canvas class="fx" id="canvas" width="800" height="500">
+            <!-- Insert fallback content here -->
+        </canvas>
+        <div class="bottom fx" id="score">
+        	Animals Hit:
+        </div>
+        <div class="bottom fx" id="timeLeft">
+        	Time Left:
+        </div>
+    </div>
+    <script src="js/animation.js"></script>
+</body>
+</html>

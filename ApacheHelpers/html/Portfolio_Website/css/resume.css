@@ -1,0 +1,89 @@
+
+#header
+{
+
+z-index: 1;
+position:fixed;
+clear:left;
+background-color: #668284; 
+width:88%;
+margin: -20px -10px 10px 11%;
+height:60px;
+float:left;
+padding:40px;  
+border-radius:20px;
+
+}
+
+.personalInfo
+{
+
+text-align:center;
+margin:0px;
+border:0px;
+color:white;
+font-family:verdana;
+
+}
+
+.personalInfo a
+{
+
+color:white;
+text-decoration:none;
+font-family:verdana;
+
+}
+
+#contact:hover
+{
+
+font-weight:bold;
+
+}
+
+.left
+{
+
+  width:5px;
+  float:left;
+  position:relative;
+  width:10%;
+  height: 1040px;
+  border: 2px solid black;
+  margin: -20px auto -20px auto;
+  background-color:green;
+ 
+}
+
+.right
+{
+
+  float:right;
+  position:relative;
+  width:88%;
+  height: auto;
+  padding:10px;  
+  background-color:skyblue; 
+  margin: 67px -10px 20px auto;
+  font-family: Arial;
+
+}
+
+
+#footer
+{
+
+font-family: Arial;
+position:relative;
+clear:both;
+position:absolute;
+position: relative;
+padding:10px;	
+margin: auto -20px auto auto;
+background-color:orange;
+border-top: 2px solid black;
+
+}
+
+

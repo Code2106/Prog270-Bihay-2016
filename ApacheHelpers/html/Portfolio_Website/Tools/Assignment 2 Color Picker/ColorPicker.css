@@ -1,0 +1,97 @@
+/*Css style for colorpicker game Prog 209 Assignment Two* *{ border:1px solid green;}*/
+
+
+#centerItem
+{
+
+
+	text-align: center;
+ 
+
+}
+
+
+
+
+
+
+div.Parent
+{
+
+	position: relative;
+	margin: 10%;
+	background-color:#FFF8DC;
+	width:45%;
+	padding-top:10px;
+	padding-bottom:40px;
+	
+}
+
+
+div.Children
+{
+
+	border:1px solid #DCDCDC;
+	display: inline-block;
+	margin:10px;
+	width:15%;
+    padding:10px;
+	
+}
+
+
+
+#content-style
+{
+
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:-10px;
+	padding-left:2px;
+	padding-right:auto;
+
+}
+
+
+input
+{
+
+	margin-bottom:0px;
+	margin-top:0px;
+	height:3%;
+	width:30%;
+
+}
+
+button
+{
+
+	margin: 9px auto 2px 2px;
+
+}
+
+
+#adjustButton
+{
+
+	position:relative;
+	text-align:center;
+	float:right;
+	margin-right:7%;
+
+}
+
+
+
+div #resultColor
+{
+	position:relative;
+	width: 400px;
+	height: 50px;
+	background-color: OldLace;
+	margin-top: 5%;
+	margin-left: 4%;
+	border: 5px solid LightGray;
+	
+	
+}
